@@ -1,0 +1,8 @@
+Base color:
+#A81DE2
+
+#A486AE
+
+#FFF5FF
+
+#211825
