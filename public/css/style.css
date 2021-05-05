@@ -1,0 +1,16 @@
+body {
+    background-color: #FFF5FF;
+}
+nav {
+    background-color: #A81DE2;
+    color: #F3F9FF;
+}
+.nav-link {
+    color: #FFF5FF;
+}
+.nav-link :hover {
+    color: #211825;
+}
+h6 {
+    text-align: right;
+}
