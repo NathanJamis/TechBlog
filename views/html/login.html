@@ -11,7 +11,7 @@
           integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
           crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="../public/css/style.css" />
+        <link rel="stylesheet" href="../../public/css/style.css" />
       </head>
 <body>
     <nav class="navbar mb-3">
@@ -30,6 +30,30 @@
           <h1>The Tech Blog</h1>
         </div>
       </nav>
+
+    <main class="container container-fluid mt-5">
+
+      <div class="col mx-auto" style="width: 40rem;">
+        <div class="login">
+            <h2>Login</h2>
+            <form class="form login-form">
+                <div class="form-group">
+                    <label for="email-login">Email:</label>
+                    <input class="form-control" type="text" id="email-login" />
+                </div>
+                <div class="form-group">
+                    <label for="password-login">Password:</label>
+                    <input class="form-control" type="password" id="password-login" />
+                </div>
+                <div class="form-group">
+                    <button class="btn" type="submit">Login</button>
+                    <a class="signup btn" href='/signup' role="button">Sign up Instead!</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    </main>
 
 
 </body>
