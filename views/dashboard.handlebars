@@ -1,0 +1,30 @@
+<div class="card m-5">
+    <div class="card-body">
+        <h3 class="text-center">Dashboard</h3>
+        <h5 class="text-center mb-2">You'll find your posts here.
+            <hr>
+            <a href="/dashboard/create/">
+                <button id="create-post" class="btn btn-outline-secondary">Create a new post!</button>
+            </a>
+        </h5>
+    </div>
+</div>
+
+{{#if posts.length}}
+    
+    {{#each posts as |post|}}
+
+    {{> post-info post}}
+
+    {{/each}}
+
+{{else}}
+
+<div class="card m-5">
+    <div class="card-body">
+        <h4 class="text-center m-3">There doesn't seem to be anything here...</h4>
+        <h5 class="text-center m-3">Click the button above to create a new post!</h5>
+    </div>
+</div>
+
+{{/if}}
