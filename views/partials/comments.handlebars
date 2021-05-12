@@ -1,8 +1,9 @@
 <div class="comments card m-5">
     {{#each this}}
     <div class="card-body">
-        <h5 class="card-title">{{user.username}} on {{timestamp}}</h5>
+        <h5 class="card-title">{{user.username}}</h5>
         <p class="card-text">{{comment_text}}</p>
+        <h6 class="card-subtitle text-muted" id="card-details">Posted on {{created_at}} </h6>
     </div>
     {{/each}}
 </div>
