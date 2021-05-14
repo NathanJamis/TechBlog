@@ -1,4 +1,4 @@
-const newCommentHandler = async (event) => {
+async function newCommentHandler(event) {
     event.preventDefault();
 
     const comment_text = document.querySelector('#comment-text').value.trim();

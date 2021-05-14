@@ -26,8 +26,8 @@ router.get('/', (req, res) => {
         }
       ]
     })
-      .then(data => {
-        const posts = data.map(post => post.get({ plain: true }));
+      .then(postData => {
+        const posts = postData.map(post => post.get({ plain: true }));
         res.render('homepage', {
             posts,
             loggedIn: req.session.loggedIn
@@ -83,13 +83,13 @@ router.get('/login', (req, res) => {
         }
       ]
     })
-      .then(data => {
-        if (!data) {
+      .then(postData => {
+        if (!postData) {
           res.status(404).json({ message: 'No post found with this id' });
           return;
         }
 
-        const post = data.get({ plain: true });
+        const post = postData.get({ plain: true });
 
         res.render('single-post', {
             post,
