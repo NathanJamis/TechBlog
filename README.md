@@ -7,12 +7,16 @@
 
 A CMS-style blog site to publish articles, blog posts, thoughts, and opinions
 
+## Deployed Application
+
+https://rocky-hollows-52762.herokuapp.com/
+
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contribution](#contribution)
-* [Testing](#testing)
+* [Screenshot](#screenshot)
 * [Questions](#questions)
 
 ## Installation
@@ -27,17 +31,15 @@ npm i
 
 Sign in to create posts and comments on your personal dashboard, or simply browse the site of any existing content.
 
+Some features are still in development, such as editing or deleting posts and comments.
+
 ## Contribution
 
 Contact me!
 
-## Testing
+## Screenshot
 
-For testing, run the following command:
-
-```
-No current tests at this time
-```
+![Screenshot](https://github.com/NathanJamis/TechBlog/blob/main/ref/Assets/1620975258549.png)
 
 ## License
 
